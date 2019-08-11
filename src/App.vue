@@ -1,26 +1,19 @@
 <template>
   <div id="app">
-
+    <font-picker-el></font-picker-el>
   </div>
 </template>
 
 <script>
-
+import FontPickerCmp from './components/FontPickerCmp.vue'
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    "font-picker-el": FontPickerCmp
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
